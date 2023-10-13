@@ -19,6 +19,8 @@ public class MobileComputer extends Computer implements Chargeable{
             System.out.println("Running out of battery");
         }
     }
+
+    @Override
     public void charge(){
         if (battery < 10){
             battery++;
